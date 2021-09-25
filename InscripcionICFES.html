@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Formulario de Registro
+        </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--Cabecera con subpestaña-->
+        <div class="cabecera"></div>
+        <img src="LogoIcfes.png" class="ImagenLogo">
+        <div class="pestaña">
+            <div class="subpestaña">
+                <p id="TextoSubpestaña">Bienvenido al Sistema PRISMA</p>
+            </div>
+        </div>
+        
+        <!--Título y Formulario-->
+        <h1>Registro para inscripciones ICFES</h1>
+    <fieldset>
+        <legend>
+        Formulario de inscripción    
+        </legend>
+        
+            <div>
+                <div class="columna1">
+                <form>
+                    <p>Usuario:<input type="text" class="input"></p>
+                        <p>Sexo:
+                            <input class="Sexo" type="radio" name="Sexo"> Masculino
+                            <input class="Sexo" type="radio" name="Sexo"> Femenino
+                        </p>
+                </div>
+                <div class="columna2">
+                            <p>Nombre: <input type="text" class="input"></p>
+                            <p>Colegio: <input type="text" class="input"></p>
+                            <p>Correo Electronico: <input type="email" class="input"></p>
+                </div>
+                <p><input type="checkbox" id="condiciones">
+                    Declaró haber leído y aceptar las condiciones generales de la normativa sobre protección de datos </p>   
+            </div>
+            <div class="boton-box">
+                <button type="reset">Limpiar</button>
+                <button type="submit" onclick="alert('Su inscripción fue exitosa')">Guardar</button>
+            </div>
+        </form>
+    </fieldset>
+    <footer>
+        Creado por cristihan David Meza 
+    </footer>
+    </body>
+</html>

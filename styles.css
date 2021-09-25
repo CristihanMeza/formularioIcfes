@@ -1,0 +1,119 @@
+body{
+    width: 75%;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    border-color: dimgray;
+    border-width: 1px;
+    border-style: solid;
+    font-family: "verdana", sans-serif;
+}
+p{
+    font: bold 80% 'verdana';
+}
+.cabecera{
+    width: 100%;
+    height: 40px;
+    background-color: #064e85;
+}
+
+.pestaña{
+    width: 100%;
+    height: 35px;
+    background-color: #064e85;
+
+}
+.subpestaña{
+    width: fit-content;
+    height: 100%;
+    background-color: #35a2d1;
+    color: white;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    font: bold 80% 'verdana';
+}
+#TextoSubpestaña{
+    padding: 10px;
+    font: bold 100% 'verdana';
+}
+.ImagenLogo{
+    width: 25%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+h1{
+    margin-left: 40px;
+    font-size:medium;
+    font: bold 100% 'verdana';
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #3c82c4;
+}
+fieldset{
+    width: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 92px;
+    border-width: 0.5px;
+}
+legend{
+    padding-right: 8px;
+    padding-left: 8px;
+    font: bold 80% 'verdana';
+    color: #064e85;
+}
+
+.columna1{
+    width: 45%;
+    float: right;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.columna2{
+    width: 45%;
+    margin-left: 25px;
+    padding: 5px;
+}
+.input{
+    float: right;
+}
+#condiciones{
+    margin-left: 30px;
+}
+
+.boton-box{
+    text-align: center;
+}
+button{
+    color: white;
+    background:#064e85;
+    font: bold 70% 'verdana';
+    margin: 5px;
+    padding: 5px;
+    border: 1px;
+    border-color: #064e85;
+    border-style: solid;
+    transition: 1s;
+}
+button:hover{
+    background: white;
+    color: #064e85;
+}
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+    text-align: center;
+    color: rgb(128, 129, 133);
+    font:  70% 'verdana';
+    border: 2px;
+    border-left: 0ch;
+    border-right: 0ch;
+    border-style: dotted;
+    padding: 5px;
+    margin-bottom: 2%;
+}
